@@ -1,0 +1,84 @@
+/* BADGES */
+.priority-badge {
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    display: inline-block;
+    white-space: nowrap;
+    background-color: var(--priority-high);
+    color: white;
+}
+
+.deadline-badge {
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    display: inline-block;
+    white-space: nowrap;
+    cursor: default;
+    border: 1px solid transparent;
+}
+
+.deadline-overdue {
+    background-color: #f8d7da;
+    color: #c00;
+    border-color: #c00;
+}
+
+.deadline-orange {
+    background-color: #fff3cd;
+    color: #d2691e;
+    border-color: #d2691e;
+}
+
+.deadline-green {
+    background-color: #d4edda;
+    color: #155724;
+    border-color: #155724;
+}
+
+/* TOOLTIP */
+.tooltip-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-wrapper .tooltip {
+    visibility: hidden;
+    opacity: 0;
+    width: max-content;
+    max-width: 300px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 6px 10px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1000;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 13px;
+    line-height: 1.3em;
+    transition: opacity 0.2s ease, visibility 0.2s ease;
+    white-space: normal;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tooltip-wrapper .tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.8) transparent transparent transparent;
+}
+
+.tooltip-wrapper:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}

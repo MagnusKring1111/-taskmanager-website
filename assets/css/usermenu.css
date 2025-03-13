@@ -1,0 +1,60 @@
+/* USER MENU */
+.user-menu-wrapper {
+    position: relative;
+}
+
+.user-button {
+    background: var(--color-white);
+    color: var(--color-black);
+    border: none;
+    padding: 8px 14px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.chevron-icon {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid var(--color-black);
+    border-bottom: 2px solid var(--color-black);
+    transform: rotate(45deg);
+    margin-left: 6px;
+    transition: transform 0.3s ease;
+    margin-top: 2px;
+}
+
+.user-button.active .chevron-icon {
+    transform: rotate(-135deg);
+}
+
+.user-dropdown {
+    position: absolute;
+    right: 0;
+    top: 110%;
+    background: var(--color-white);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    min-width: 160px;
+    z-index: 1000;
+    padding: 10px 0;
+}
+
+.user-dropdown a {
+    display: block;
+    padding: 10px 16px;
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--color-black);
+    white-space: nowrap;
+}
+
+.user-dropdown a:hover {
+    background: var(--color-bg);
+}

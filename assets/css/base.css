@@ -1,0 +1,33 @@
+:root {
+    --color-bg: #f7f7f7;
+    --color-white: #ffffff;
+    --color-black: #111;
+    --color-gray-light: #eee;
+    --color-gray-dark: #666;
+    --color-text: #444;
+    --color-border: #ccc;
+
+    --color-primary: #0077cc;
+    --color-primary-dark: #005fa3;
+
+    --priority-low: #6c757d;
+    --priority-medium: #ffc107;
+    --priority-high: #dc3545;
+
+    --status-1: #0077cc;
+    --status-2: #28a745;
+    --status-3: #fd7e14;
+    --status-4: #6f42c1;
+    --status-5: #6c757d;
+
+    --deadline-overdue: #f8d7da;
+    --deadline-today: #fff3cd;
+}
+
+/* GLOBAL */
+body {
+    font-family: Arial, sans-serif;
+    background: var(--color-bg);
+    margin: 0;
+    padding: 0;
+}

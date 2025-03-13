@@ -1,0 +1,17 @@
+/* PRINT */
+@media print {
+    header,
+    footer,
+    nav,
+    .button {
+        display: none;
+    }
+
+    main {
+        padding: 0;
+    }
+
+    .form {
+        box-shadow: none;
+    }
+}
