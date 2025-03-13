@@ -1,0 +1,44 @@
+/TASKMANAGER
+¦   .htaccess
+¦   actions
+¦   +-- add_client.php
+¦   +-- add_task.php
+¦   +-- change_status.php
+¦   +-- live_search.php
+¦   +-- update_client.php
+¦   +-- update_task.php
+¦   assets
+¦   +-- css
+¦   ¦   +-- base.css
+¦   ¦   +-- components.css
+¦   ¦   +-- layout.css
+¦   ¦   +-- print.css
+¦   ¦   +-- search.css
+¦   ¦   +-- taskboard.css
+¦   ¦   +-- usermenu.css
+¦   +-- js
+¦   ¦   +-- main.js
+¦   ¦   +-- search.js
+¦   +-- logo-white.svg
+¦   config
+¦   +-- db.php
+¦   includes
+¦   +-- components
+¦   ¦   +-- deadline-badge.php
+¦   ¦   +-- mini-client-card.php
+¦   ¦   +-- mini-task-card.php
+¦   ¦   +-- priority-badge.php
+¦   ¦   +-- task-card.php
+¦   +-- footer.php
+¦   +-- functions.php
+¦   +-- header.php
+¦   index.php
+¦   pages
+¦   +-- client.php
+¦   +-- clients.php
+¦   +-- completed-tasks.php
+¦   +-- dashboard.php
+¦   +-- new-client.php
+¦   +-- new-task.php
+¦   +-- search.php
+¦   +-- task.php
